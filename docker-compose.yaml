@@ -1,6 +1,6 @@
 services:
   lw251-exporter:
-    image: ghcr.io/aracloud/alpha-innotec-lw251-exporter:latest
+    image: ghcr.io/aracloud/alpha-innotec-exporter:latest
     container_name: lw251-exporter
     restart: always
     ports:
