@@ -5,7 +5,7 @@
 ![Alpine Linux](https://img.shields.io/badge/Base-Alpine_Linux-0D597F?logo=alpinelinux)
 ![Prometheus](https://img.shields.io/badge/Metrics-Prometheus-E6522C?logo=prometheus)
 
-A lightweight, Docker-ready **Prometheus exporter** for an **Alpha Innotec LW251** heat pump with a compatible **Luxtronik WebSocket interface**. It reads operational data from the heat pump and exposes metrics for **Prometheus** and **Grafana**.
+A lightweight, Docker-ready **Prometheus exporter** for an **Alpha Innotec** heat pump with a compatible **Luxtronik WebSocket interface**. It reads operational data from the heat pump and exposes metrics for **Prometheus** and **Grafana**.
 
 > [!NOTE]
 > Developed and tested against an Alpha Innotec LW251 exposing the `Lux_WS` WebSocket subprotocol on TCP port `8214`, with **German-language** menu and metric labels. Compatibility with other models, controllers, firmware versions, and languages is not guaranteed.
