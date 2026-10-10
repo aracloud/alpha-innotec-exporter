@@ -1,0 +1,10 @@
+services:
+  lw251-exporter:
+    image: ghcr.io/aracloud/alpha-innotec-lw251-exporter:latest
+    container_name: lw251-exporter
+    restart: always
+    ports:
+      - "8888:8888"
+    environment:
+      HEATPUMP_HOST: "<heat_pump_ip>"
+      HEATPUMP_PORT: "8214"
