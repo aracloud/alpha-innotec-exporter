@@ -1,8 +1,11 @@
+import os
+
 # Alpha Innotec LW251 / Luxtronik German-language telemetry mapping
-serverHost = "0.0.0.0"
-serverPort = 8888
-heatPumpHost = "192.168.3.12"
-heatPumpPort = "8214"
+serverHost = os.getenv("SERVER_HOST", "0.0.0.0")
+serverPort = int(os.getenv("SERVER_PORT", "8888"))
+heatPumpHost = os.getenv("HEATPUMP_HOST", "")
+heatPumpPort = os.getenv("HEATPUMP_PORT", "8214")
+
 
 # Metric names match the original exporter's naming where applicable.
 # The revised main.py supports Ein/Aus, signed numbers and HH:MM values.
