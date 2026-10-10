@@ -1,4 +1,4 @@
-# Alpha Innotec LW251 Prometheus Exporter
+# Alpha Innotec Prometheus Exporter
 
 [![Docker Image](https://img.shields.io/badge/Docker-GHCR-blue?logo=docker)](https://github.com/aracloud/alpha-innotec-exporter/pkgs/container/alpha-innotec-exporter)
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
